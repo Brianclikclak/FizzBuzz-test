@@ -21,7 +21,7 @@ test("debe ser fizzbuzz", () => {
 
 test("debe ser un numero entero", () =>{
 
-  expect(createFizzBuzz("holaMundo")).toBe("No es un numero entero");
+  expect(createFizzBuzz(22.5)).toBe("No es un numero entero");
 })
   
  
